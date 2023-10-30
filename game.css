@@ -1,0 +1,70 @@
+h1 {
+  font-family: "Arial Black", Arial, sans-serif;
+  font-size: 48px;
+  color: wheat;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  background: url("back\ ground\ game\ .jpg");
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#board {
+  height: 532px;
+  width: 475px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: blue;
+  border: 10px solid lightblue;
+}
+.card {
+  height: 128px;
+  width: 90px;
+  margin: 2.5px;
+}
+
+/* CSS untuk pesan kemenangan */
+#win-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #007bff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#win-message.hidden {
+  display: none;
+}
+
+#win-message h2 {
+  font-size: 24px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+#win-message button {
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+#win-message button:hover {
+  background-color: #0056b3;
+}

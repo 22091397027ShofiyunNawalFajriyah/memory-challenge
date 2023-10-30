@@ -1,0 +1,44 @@
+body {
+    background-image: url('back\ ground\ game\ .jpg'); /* Ganti 'background_image.jpg' dengan path gambar latar belakang yang diinginkan */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    color: wheat;
+    font-size: 48px;
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px #000; /* Efek bayangan teks */
+  }
+  
+  button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-shadow: 1px 1px 2px #000; /* Efek bayangan teks */
+    box-shadow: 2px 2px 4px #000; /* Efek bayangan tombol */
+  }
+  
+  button:hover {
+    background-color: #e33e32;
+  }
+  
